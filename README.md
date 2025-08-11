@@ -1,7 +1,7 @@
 # 🚀 Express Starter Kit
 
 A production-ready **Express.js Starter Kit** built with best practices and ready-to-use features to help you kickstart your backend development.  
-This starter covers essential concepts like **CORS**, **Global Error Handling**, **Rate Limiting**, and **Redis** integration.
+This starter covers essential concepts like **CORS**, **Global Error Handling**, **Rate Limiting**, **Redis** integration, and **Pub-Sub**.
 
 ---
 
@@ -12,6 +12,7 @@ This starter covers essential concepts like **CORS**, **Global Error Handling**,
 - **Global Error Handling** — Centralized error management
 - **Rate Limiting** — Protect your API from abuse & DDoS attacks
 - **Redis Integration** — Caching & performance optimization
+- **Pub-Sub** — Event-driven communication between services 
 - **Environment Configuration** — Manage configs via `.env`
 - **Organized Folder Structure** — Scalable and maintainable
 
@@ -23,6 +24,7 @@ This starter covers essential concepts like **CORS**, **Global Error Handling**,
 - [CORS](https://www.npmjs.com/package/cors)
 - [Express-Rate-Limit](https://www.npmjs.com/package/express-rate-limit)
 - [Redis](https://redis.io/)
+- [RabbitMQ](https://www.rabbitmq.com/) — Message broker for pub-sub pattern 
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [nodemon](https://www.npmjs.com/package/nodemon) (for development)
 

@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node src/redis/redisServer.js",
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev:redis": "nodemon src/redis/redisServer.js",
+    "dev:redis_ds": "nodemon src/redis/data_structures.js",
+    "dev:pubsub": "nodemon src/redis/pub-sub.js",
+     "dev:ioRedis": "nodemon src/redis/io-redis.js",
+    "start": "node server.js",
+    "start:redis": "node src/redis/redisServer.js",
+    "start:redis_ds": "node src/redis/data_structures.js",
+    "start:pubsub": "node src/redis/pub-sub.js",
+    "start:ioRedis": "node src/redis/io-redis.js"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +26,8 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "express-rate-limit": "^8.0.1"
+    "express-rate-limit": "^8.0.1",
+    "ioredis": "^5.7.0",
+    "redis": "^5.8.0"
   }
 }
